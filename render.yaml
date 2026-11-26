@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: strikepoint-online
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    autoDeploy: true
